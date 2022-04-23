@@ -23,7 +23,7 @@ body {
 .joinChatContainer h3 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 .joinChatContainer input {
   width: 210px;
@@ -68,7 +68,7 @@ body {
 }
 .chat-window .chat-header p {
   display: block;
-  padding: 0 1em 0 2em;
+  padding: 0 1em 0 1em;
   color: #fff;
   font-weight: 700;
   line-height: 45px;
@@ -202,4 +202,14 @@ body {
 }
 .hide {
   opacity: 0 !important;
+}
+
+.credit {
+  position: fixed;
+  bottom: 0px;
+  width: 210px;
+  height: 40px;
+  margin: 0px 7px;
+  padding: 0px 5px;
+  
 }

@@ -41,6 +41,7 @@ function App() {
             }}
           />
           <button onClick={joinRoom}>Join Room</button>
+          <div className="credit">Created by Alan Joy © 2022</div>
         </div>
       ) : (
         <Chat socket={socket} username={username} room={room} />
