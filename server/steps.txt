@@ -1,0 +1,19 @@
+create a heroku app
+heroku cli login
+heroku git:remote -a <heroku-app>
+git init
+git add .
+git commit -m "commit 1"
+git push heroku main  
+heroku logs --tail  
+
+add -> var port = process.env.PORT || 3001;
+change all localhost
+npm i path
+add -> app.use(express.static(path.join(__dirname, "/client/build")));
+       app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
+       });
+add -> Procfile
+change nodemon to node
+add -> "heroku-postbuild": "cd client && npm install && npm run build"
