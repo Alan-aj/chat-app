@@ -24,3 +24,4 @@ yarn-error.log*
 
 # npx create-react-app .
 # npm install socket.io-client
+# npm install react-scroll-to-bottom
