@@ -2,6 +2,7 @@ create a heroku app
 heroku cli login
 heroku git:remote -a <heroku-app>
 git init
+add -> .gitignore
 git add .
 git commit -m "commit 1"
 git push heroku main  
