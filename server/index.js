@@ -25,7 +25,7 @@ io.on("connection", (socket) => {
     socket.to(data.room).emit("new_join", data);
     socket.username = data.username;
     socket.room = data.room;
-    console.log(`user id: ${socket.id} joined room: ${data.room}`);
+    console.log(`User : ${data.username} joined room - ${data.room}`);
   });
 
   socket.on("send_message", (data) => {
