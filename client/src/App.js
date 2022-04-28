@@ -35,7 +35,7 @@ function App() {
           />
           <input
             type="text"
-            placeholder="Room Id"
+            placeholder="Room ID"
             onChange={(event) => {
               setRoom(event.target.value);
             }}
